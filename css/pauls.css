@@ -21,7 +21,7 @@ h6 {
 }
 
 p {
-    font-size: 1.25em;
+    font-size: 1.00em;
     line-height: 1.6;
     color: #000;
 }
@@ -35,7 +35,7 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 80px 20%;
     background: #fff;
     background: rgba(255,255,255,0.8);
 }
