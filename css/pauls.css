@@ -42,7 +42,44 @@ hr {
 
 
 
-@media screen and (min-width:768px) {
+/*header {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  overflow-x: hidden;
+  top: -85px;
+  -webkit-font-smoothing: antialiased;
+  }*/
+
+header .menu {
+  float: right;
+  margin-top: 14px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 500px) {
+  header .menu {
+    margin-top: 9px;
+  }
+}
+header .menu li {
+  float: left;
+  padding-right: 0.8em;
+}
+header .menu li a {
+  font-size: 0.875em;
+  text-decoration: none;
+  font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+
+
+@media screen and (min-width:500px) {
     .brand {
         display: inherit;
         margin: 10%;
@@ -55,6 +92,7 @@ hr {
         line-height: normal;
         color:antiquewhite;        
     }
+
 
     .about-bar {
         display: inherit;
@@ -79,6 +117,59 @@ hr {
         letter-spacing: 3px;
         color:antiquewhite;
         margin-bottom: 10%;
+    }
+
+    .centerimg {
+        display: inherit;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 20px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color:antiquewhite;        
+    }
+
+
+    .about-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color:antiquewhite;
+        margin-bottom: 5%;
+    }
+
+    .more {
+        display: inherit;
+        margin: 0;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color:antiquewhite;
+        margin-bottom: 10%;
+    }
+
+    .centerimg {
+        display: inherit;
+        margin: 0;
+        text-align: center;
     }
 }
 
