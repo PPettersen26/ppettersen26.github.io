@@ -31,53 +31,49 @@ hr {
     border-color: #999999;
 }
 
-
+.row {
+    padding: 5%;
+}
 
 .box {
     margin-bottom: 20px;
-    padding: 80px 20%;
+    padding: 40px 10%;
     background: #fff;
     background: rgba(255,255,255,0.8);
 }
 
+header .box {
+    padding: 0 10%;
+    background: rgba(255,255,255,0.6);
+}
 
-
-/*header {
-  position: absolute;
-  width: 100%;
-  display: inline-block;
-  right: 0;
-  left: 0;
-  z-index: 50;
-  overflow-x: hidden;
-  top: -85px;
-  -webkit-font-smoothing: antialiased;
-  }*/
+.intro-text {
+    text-align:center;
+}
 
 header .menu {
   float: right;
-  margin-top: 14px;
-  margin-right: 15px;
 }
-@media screen and (min-width: 500px) {
-  header .menu {
-    margin-top: 9px;
-  }
-}
+
 header .menu li {
   float: left;
-  padding-right: 0.8em;
+  padding-right: 0.5em;
+  list-style-type:none;
 }
+
 header .menu li a {
-  font-size: 0.875em;
+  font-size: medium;
   text-decoration: none;
-  font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: 500;
   display: inline-block;
   position: relative;
 }
 
-
+a:link {color:darkolivegreen;}
+a:visited {color:darkolivegreen;}
+a:hover {color:darkred;}
+a:active {color:darkolivegreen;}
 
 @media screen and (min-width:500px) {
     .brand {
@@ -92,7 +88,6 @@ header .menu li a {
         line-height: normal;
         color:antiquewhite;        
     }
-
 
     .about-bar {
         display: inherit;
@@ -124,6 +119,8 @@ header .menu li a {
         margin: 0;
         text-align: center;
     }
+
+
 }
 
 @media screen and (max-width:499px) {
@@ -171,6 +168,12 @@ header .menu li a {
         margin: 0;
         text-align: center;
     }
+
+    header .box {
+    margin-bottom: 20px;
+    padding: 10% 10%;
+    background: rgba(255,255,255,1.0);
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -180,3 +183,18 @@ header .menu li a {
         clear: both;
     }
 }
+
+.menu-box a {
+    line-height: 1.0;
+    color:crimson;
+}
+
+/*@media screen and (min-width: 500px) {
+  header .menu {
+    padding: 1px;
+  }
+}*/
+
+
+
+
