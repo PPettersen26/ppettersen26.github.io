@@ -10,7 +10,7 @@
 
     <!-- Custom CSS -->
     <link href="css/pauls.css" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
     <header>
@@ -22,9 +22,11 @@
                     <li></li>
                     <li><a href="pics.html">Pics</a></li>
                     <li></li> 
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li></li>
                     <li><a href="https://www.linkedin.com/in/ppettersen26"><img  src="img/in.png" alt="LinkedIn" /></a></li>
+                    <li></li>
+                    <li><a href="https://500px.com/paulpettersen"><img  src="img/500px.png" alt="500px" /></a></li>
                 </ul>
        </div>     
     </header>
@@ -75,6 +77,34 @@
             </div>             -->
             Under construction</div>
     </div>   
+    <div class="more">
+        <button type="button" id="opt1" class="mess">
+            <img src="img/PBK Cookies.png" />
+            Food</button>
+        <button type="button" id="opt2" class="mess">
+            <img src="img/PBK Cookies.png" />
+            Food</button>
+    </div>
+    <div id="p1">
+        <div class="box">Pics 1</div>
 
+    </div>
+    <div id="p2">
+        <div class="box">Pics 2</div>
+    </div>
+
+    <script>
+        $(window).load(function () {
+            $(p2).fadeOut();
+        });
+        $(opt1).click(function () {
+            $(p2).fadeOut();
+            $(p1).fadeIn();
+        });
+        $(opt2).click(function() {
+            $(p1).fadeOut();
+            $(p2).fadeIn();
+        });
+</script>
 </body>
 </html>
