@@ -79,31 +79,54 @@
     </div>   
     <div class="more">
         <button type="button" id="opt1" class="mess">
-            <img src="img/PBK Cookies.png" />
-            Food</button>
+            <img src="img/LandButton.png" />
+            Landscape</button>
         <button type="button" id="opt2" class="mess">
             <img src="img/PBK Cookies.png" />
-            Food</button>
+            Culinary</button>
+        <button type="button" id="opt3" class="mess">
+            <img src="img/ElwoodButton.png" />
+            Others</button>
     </div>
     <div id="p1">
-        <div class="box">Pics 1</div>
-
+        <div class="box">Landscape
+            <img src="img/Seney.png" alt="Seney"  />
+        </div>
     </div>
     <div id="p2">
-        <div class="box">Pics 2</div>
+        <div class="box">
+            <p>Culinary Graphics</p>
+            <img src="img/Japanese noodle.png" />
+            <img src="img/Refrigerator Sun Pickles.png" />
+            <img src="img/Strawberry Pretzel Salad.png" />
+        </div>
     </div>
-
+    <div id="p3">
+        <div class="box">Everything that is not a landscape or edible!
+            <img src="img/Docks.png" />
+            <img src="img/Theyre here.png" />
+            <img src="img/LogFrost.png" />
+        </div>
+    </div>
     <script>
         $(window).load(function () {
             $(p2).fadeOut();
+            $(p3).fadeOut();
         });
         $(opt1).click(function () {
+            $(p3).fadeOut();
             $(p2).fadeOut();
             $(p1).fadeIn();
         });
         $(opt2).click(function() {
             $(p1).fadeOut();
             $(p2).fadeIn();
+            $(p3).fadeOut();
+        });
+        $(opt3).click(function () {
+            $(p1).fadeOut();
+            $(p3).fadeIn();
+            $(p2).fadeOut();
         });
 </script>
 </body>
