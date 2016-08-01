@@ -1,10 +1,10 @@
 /*!
-    CSS for Pauls Portfolio
+    CSS for Cooks Site
  */
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/Italian Beef.JPG') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -70,33 +70,11 @@ a:visited {color:darkolivegreen;}
 a:hover {color:darkred;}
 a:active {color:darkolivegreen;}
 
-.centerimg {
-    display: inherit;
-    margin: 0;
-    text-align: center;
-}
-
-.Projectthumb {
-        text-align: center;        
-}
-
- 
-.Projectthumb img{
-    height: 216px; 
-    width: 400px;
-    margin: 15px 0;
-     -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-}
- 
-.Projectthumb img:hover {
- height: 356px;
- width: 600px;
- margin-left: -50px;
-}
-
-
+    .centerimg {
+        display: inherit;
+        margin: 0;
+        text-align: center;
+    }
 
 button {
     width: 10em;  
