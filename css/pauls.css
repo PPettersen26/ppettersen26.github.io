@@ -2,6 +2,41 @@
     CSS for Pauls Portfolio
  */
 
+#fixed-Menu {
+    width: 100%;
+    background-color:#992600;
+    position:fixed;  
+    top: 0;
+    left:0px;
+}
+
+#fm-wrapper {
+    width:100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#fixed-Menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+
+#fixed-Menu ul li {
+display:inline-block;
+}
+
+#fixed-Menu ul li:hover {
+background-color: #333;
+}
+
+#fixed-Menu ul li a:visited {
+    color: #ffb399;
+    display: block;
+    padding: 15px;
+    text-decoration:none;
+}
+
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url('../img/bg.jpg') no-repeat center center fixed;
